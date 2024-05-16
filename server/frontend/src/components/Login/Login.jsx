@@ -4,7 +4,6 @@ import "./Login.css";
 import Header from '../Header/Header';
 
 const Login = ({ onClose }) => {
-
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [open,setOpen] = useState(true)
